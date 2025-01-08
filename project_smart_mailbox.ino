@@ -1,7 +1,6 @@
 #include "VOneMqttClient.h"
 #include <ESP32Servo.h>
 
-// Device IDs (replace with your actual IDs)
 const char* InfraredSensor = "9cfacc01-c6e6-4c89-8c82-c24c93f3550d";  // Sensor for mail delivery
 const char* MailCountSensor = "b111ca4f-20f5-4be2-b05c-cd85ecd66f08";  // Sensor for mail count
 const char* PushButton = "4ee47a92-9d6b-4429-adc9-91c7a7c70eb0";  // Push button
@@ -10,9 +9,9 @@ const char* ServoMotor = "d30df230-ab7b-46cf-a6a4-9e3ee5bec8f5";  // Servo motor
 // Pin definitions
 const int irDeliverySensorPin = 4;  // IR Sensor to detect postman
 const int irInsideSensorPin = 42;   // IR Sensor to detect mail inside the box
-const int greenLED = 5;             // Green LED: Mailbox is open
-const int yellowLED = 6;            // Yellow LED: Mail present
-const int redLED = 9;               // Red LED: Mailbox is empty
+const int greenLED = 5;             // Green LED: 
+const int yellowLED = 6;            // Yellow LED: 
+const int redLED = 9;               // Red LED: 
 const int buttonPin = 38;           // Push button
 const int servoPin = 8;             // Servo motor pin
 
